@@ -25,6 +25,8 @@ class Category(models.Model):
     name = models.CharField(max_length=100, verbose_name='Наименование')
     description = models.TextField(verbose_name='Описание', **NULLABLE)
 
+    is_active = models.BooleanField(default=True, verbose_name='активно', **NULLABLE)
+
     def __str__(self):
         return f'{self.name}'
 

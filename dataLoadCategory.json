@@ -1,0 +1,47 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Игрушки",
+      "description": "Игрушки для детей",
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Зоотовары",
+      "description": "Зоотовары для животных",
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Напитки",
+      "description": "",
+      "is_active": false
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Шоколады",
+      "description": "Шоколадные товары",
+      "is_active": false
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+      "name": "Рыба",
+      "description": "Рыба",
+      "is_active": false
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Плюшевая мишка",
+      "description": "Плюшевая мишка для детей",
+      "preview_image": "",
+      "category": 1,
+      "price": 100,
+      "date_creation": null,
+      "date_last_change": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Косточка",
+      "description": "Косточка для собаки",
+      "preview_image": "",
+      "category": 2,
+      "price": 12,
+      "date_creation": null,
+      "date_last_change": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Сок натуральный",
+      "description": "0.5 л",
+      "preview_image": "",
+      "category": 3,
+      "price": 22,
+      "date_creation": null,
+      "date_last_change": null
+    }
+  }
+]
